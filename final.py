@@ -11,7 +11,7 @@ import tkinter.messagebox as m
 import re
 
 import cx_Oracle
-con = cx_Oracle.connect('isha/isha2112@localhost:1521/isha2112')
+con = cx_Oracle.connect('YOUR ORACLE LOGIN AND PASSWORD')
 cursor = con.cursor()
 
 Login_tracker=0
@@ -96,7 +96,7 @@ def Reg():
         
         try:
             if(PASSWORD==CONFIRMPASS):
-                con = cx_Oracle.connect('isha/isha2112@localhost:1521/isha2112')
+                con = cx_Oracle.connect('YOUR ORACLE LOGIN AND PASSWORD')
                 cursor = con.cursor()
                 cursor.execute("insert into register(email, username, f_name, l_name,password) values(:1,:2,:3,:4,:5)",(EMAIL,USERNAME,FNAME,LNAME,PASSWORD))
                 print("entry made")
@@ -120,13 +120,13 @@ def Reg():
         except cx_Oracle.DatabaseError as e:
             e1=str(e)
             #print(e1)
-            if (e1=="ORA-00001: unique constraint (ISHA.PK) violated"):
+            if (e1=="ORA-00001: unique constraint (USERNAME.PK) violated"):
                 #print('yes')
                 reg.withdraw()
                 m.showerror(message="Email already exists please select another one")
                 reg.deiconify()
 
-            if(e1=="ORA-00001: unique constraint (ISHA.UNI) violated"):
+            if(e1=="ORA-00001: unique constraint (USERNAME.UNI) violated"):
                 reg.withdraw()
                 m.showerror(message="Username already exists please select another one")
                 reg.deiconify()
@@ -183,9 +183,9 @@ def Log():
         global USERNAME
         USERNAME=euser.get()
         #print(USERNAME,PASSWORD)
-        con1 = cx_Oracle.connect('isha/isha2112@localhost:1521/isha2112')
+        con1 = cx_Oracle.connect('YOUR ORACLE LOGIN AND PASSWORD')
         cursor1 = con1.cursor()
-        con2 = cx_Oracle.connect('isha/isha2112@localhost:1521/isha2112')
+        con2 = cx_Oracle.connect('YOUR ORACLE LOGIN AND PASSWORD')
         cursor2 = con2.cursor()
         cursor1.execute("select username from register")
         cursor2.execute("select password from register")
