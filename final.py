@@ -21,10 +21,7 @@ try:
     rec=json.load(fd)
 except:
     rec={}
-#print(rec)
-#to open the dataset
-# f=open("hist.json")
-# rec=json.load(f)
+
 fd=open("trainslarge.json")
 dct=json.load(fd)
 
@@ -36,7 +33,7 @@ canvas=Canvas(mainWindow, width=4500, height=3000,bg="white")
 canvas.place(x=0,y=0)
 
 #applying image of train
-image1 = Image.open("tain2.jpg")
+image1 = Image.open("background.jpg")
 image1 = image1.resize((930,495), Image.ANTIALIAS)
 test1 = ImageTk.PhotoImage(image1)
 label1 = Label(image=test1)
@@ -44,7 +41,7 @@ label1.image = test1
 label1.place(x = 698, y = 192)
 
 #logo 
-image2 = Image.open("IRTBS (1).png")
+image2 = Image.open("logo.png")
 image2 = image2.resize((190,188), Image.ANTIALIAS)
 test2 = ImageTk.PhotoImage(image2)
 label2 = Label(image=test2)
