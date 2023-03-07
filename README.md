@@ -11,6 +11,8 @@ Also, if a user needs to reach to a particular place, there is no such option of
 Inorder to incorporate the above listed facilities I have made this desktop application for online booking of railway tickets.  
 This application is made using Tkinter a Python GUI library. The Oracle database is used to store tha registration and booking information.  
 
+The frontpage of the application:  
+![Front Page](SCREENSHOTS/FRONT PAGE.JPG)
 
 
 
