@@ -22,8 +22,5 @@ If we want to check the schedule of a particular train we can enter the train na
 ![Train Schedule](SCREENSHOTS/FIND_TRAIN.JPG)  
 
 For example if we select the JAN SHATABDI train, we will get the entire schedule for that train:  
-![Train Schedule](https://user-images.githubusercontent.com/89999331/223329597-0609a173-b93f-4658-90ed-7f15501de43e.mp4)
 
-
-
-![Untitled video - Made with Clipchamp](https://user-images.githubusercontent.com/89999331/223330141-3293d15e-c799-4679-856b-b53d57ba4898.gif)
+![JAN_SHATABDi](https://user-images.githubusercontent.com/89999331/223330434-c8dfc4d2-4d04-425b-b107-aed9bad03ac8.gif)
