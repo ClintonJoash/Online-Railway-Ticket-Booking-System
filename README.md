@@ -37,6 +37,6 @@ After Clicking on the 'Book Ticket' button we get a dialog box to confirm our bo
 All the bookings that have been made so far using our Login Id will be displayed in the Past Travel dialog box. We can easily rebook the same trip by choosing a different date from the calendar:  
 ![Available Trains](SCREENSHOTS/TRAVEL_HISTORY.png)
 
-The train schedules information was acquired from the json file ![DATASET](trainslarge.json)
+The train schedules information was acquired from the json file [DATASET](trainslarge.json)
 
 
