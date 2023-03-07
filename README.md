@@ -6,10 +6,10 @@ Earlier, people used to face various problems while booking tickets as they had 
 Thus, this Online Ticket Booking system will save people's time and make the process less tedious.  
 
 Using the existing IRCTC website we cannot store the past travel history and access it for booking tickets in the future.  
-Also, if a user needs to reach to a particular place, there is no such option of shortlisting trains based on it.  
+Also, if a user needs to reach a particular place, there is no such option for shortlisting trains based on it.  
 
 Inorder to incorporate the above listed facilities I have made this desktop application for online booking of railway tickets.  
-This application is made using Tkinter a Python GUI library. The Oracle database is used to store tha registration and booking information.  
+This application is made using Tkinter, a Python GUI library. The Oracle database is used to store the registration and booking information.  
 
 The frontpage of the application:  
 ![Front Page](SCREENSHOTS/FRONT_PAGE.png)  
@@ -29,12 +29,12 @@ If we want to check the trains available between 2 stations then we can search f
 ![Available Trains](SCREENSHOTS/Check_train_status.JPG)  
 
 The trains available between the 2 stations will be listed with the fastest train first:  
-
+![available-trains_UahENqlG](https://user-images.githubusercontent.com/89999331/223432127-9c273103-2656-4210-a434-3e4e0ecdea3c.gif)
 
 After Clicking on the Book Ticket button we get a dialog box to confirm our booking:  
 ![Confirm Booking](SCREENSHOTS/TRAIN_BOOKING.JPG)  
 
-All the bookings that have been made so far using our Login Id will be displayed in the Past Travel dialog box:  
+All the bookings that have been made so far using our Login Id will be displayed in the Past Travel dialog box. We can easily rebook the same trip by choosing a different date from the calendar:  
 ![Available Trains](SCREENSHOTS/TRAVEL_HISTORY.png)
 
 
