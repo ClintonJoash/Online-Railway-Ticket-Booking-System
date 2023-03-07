@@ -22,7 +22,7 @@ If we want to check the schedule of a particular train we can enter the train na
 ![Train Schedule](SCREENSHOTS/FIND_TRAIN.JPG)  
 
 For example if we select the JAN SHATABDI train, we will get the entire schedule for that train:  
-https://user-images.githubusercontent.com/89999331/223329597-0609a173-b93f-4658-90ed-7f15501de43e.mp4
+![Train Schedule](https://user-images.githubusercontent.com/89999331/223329597-0609a173-b93f-4658-90ed-7f15501de43e.mp4)
 
 
 
