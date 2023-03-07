@@ -29,6 +29,7 @@ If we want to check the trains available between 2 stations then we can search f
 ![Available Trains](SCREENSHOTS/Check_train_status.JPG)  
 
 The trains available between the 2 stations will be listed with the fastest train first:  
+![Available_Trains_AdobeExpress](https://user-images.githubusercontent.com/89999331/223334323-5ac9649d-3cb7-47d3-ac3d-ef5c05a9d02d.gif)
 
 After Clicking on the Book Ticket button we get a dialog box to confirm our booking:  
 ![Confirm Booking](SCREENSHOTS/TRAIN_BOOKING.JPG)  
