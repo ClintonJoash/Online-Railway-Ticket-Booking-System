@@ -23,4 +23,4 @@ If we want to check the schedule of a particular train we can enter the train na
 
 For example if we select the JAN SHATABDI train, we will get the entire schedule for that train:  
 
-![JAN_SHATABDi](https://user-images.githubusercontent.com/89999331/223330434-c8dfc4d2-4d04-425b-b107-aed9bad03ac8.gif)
+![jan-shatabdi_afs0XHH0 (1)](https://user-images.githubusercontent.com/89999331/223331962-969f62db-6f33-454b-aeeb-c2be5887808e.gif)
