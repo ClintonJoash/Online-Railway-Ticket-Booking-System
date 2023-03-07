@@ -23,4 +23,15 @@ If we want to check the schedule of a particular train we can enter the train na
 
 For example if we select the JAN SHATABDI train, we will get the entire schedule for that train:  
 
-![jan-shatabdi_afs0XHH0 (1)](https://user-images.githubusercontent.com/89999331/223331962-969f62db-6f33-454b-aeeb-c2be5887808e.gif)
+![jan-shatabdi-afs0xhh0-1_ciibRo9P](https://user-images.githubusercontent.com/89999331/223333482-df14f87a-22b1-42fa-b468-642e9f3d27de.gif)
+
+If we want to check the trains available between 2 stations then we can search for those 2 stations in the Check Available Trains dialog box:  
+![Available Trains](SCREENSHOTS/Check_train_status.JPG)  
+
+The trains available between the 2 stations will be listed with the fastest train first:  
+
+After Clicking on the Book Ticket button we get a dialog box to confirm our booking:  
+![Confirm Booking](SCREENSHOTS/TRAIN_BOOKING.JPG)  
+
+
+
