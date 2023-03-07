@@ -12,7 +12,7 @@ Inorder to incorporate the above listed facilities I have made this desktop appl
 This application is made using Tkinter a Python GUI library. The Oracle database is used to store tha registration and booking information.  
 
 The frontpage of the application:  
-![Front Page](SCREENSHOTS/FRONT_PAGE.JPG)
+![Front Page](SCREENSHOTS/FRONT_PAGE.png)
 
 
 
