@@ -12,7 +12,11 @@ Inorder to incorporate the above listed facilities I have made this desktop appl
 This application is made using Tkinter a Python GUI library. The Oracle database is used to store tha registration and booking information.  
 
 The frontpage of the application:  
-![Front Page](SCREENSHOTS/FRONT_PAGE.png)
+![Front Page](SCREENSHOTS/FRONT_PAGE.png)  
+
+The registration page gets all the user data and stores it into the Oracle database. During the login process the username and password is validated using the stored data.  
+The Registration and Login pages:  
+![Front Page](SCREENSHOTS/REGISTRATION.JPG)  ![Front Page](SCREENSHOTS/LOGIN.JPG)
 
 
 
